@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="resumeGameButton" layoutX="214.0" layoutY="112.0" mnemonicParsing="false" onAction="#handleResumeGame" prefHeight="26.0" prefWidth="172.0" text="Resume Game" />
+      <Button fx:id="saveGameButton" layoutX="214.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleSaveGame" prefWidth="172.0" text="Save Game" />
+      <Button fx:id="menuButton" layoutX="214.0" layoutY="340.0" mnemonicParsing="false" onAction="#handleMenu" prefWidth="172.0" text="Menu" />
+      <Label alignment="CENTER" layoutX="214.0" layoutY="28.0" prefWidth="172.0" text="Game Paused">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="goalsMenuButton" layoutX="214.0" layoutY="58.0" mnemonicParsing="false" onAction="#handleGoalsMenu" prefWidth="172.0" text="Goals" />
+      <Button fx:id="settingsButton" layoutX="214.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleSettings" prefWidth="172.0" text="Settings" />
+      <Button fx:id="helpButton" layoutX="214.0" layoutY="279.0" mnemonicParsing="false" onAction="#handleHelp" prefWidth="172.0" text="Help" />
+   </children>
+</Pane>

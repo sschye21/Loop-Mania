@@ -1,0 +1,40 @@
+{
+  "width": 8,
+  "height": 14,
+  "rare_items": [],
+  "goal-condition": {"goal": "experience", "quantity": 123456 },
+  "entities": [
+    {"x": 0, "y": 0, "type": "Hero's Castle"},
+    {"x": 1, "y": 4, "type": "Vampire castle"},
+    {"x": 1, "y": 1, "type": "Campfire"},
+    {"x": 4, "y": 0, "type": "Health potion"},
+    {"x": 7, "y": 0, "type": "Village"},
+    {"x": 3, "y": 2, "type": "Zombie pit"},
+    {"x": 7, "y": 6, "type": "Trap"},
+    {"x": 2, "y": 11, "type": "Zombie"},
+    {"x": 2, "y": 7, "type": "Gold"},
+    {"x": 4, "y": 12, "type": "Tower"},
+    {"x": 2, "y": 13, "type": "Vampire"},
+    {"x": 0, "y": 14, "type": "Barracks card"},
+    {"x": 1, "y": 14, "type": "Vampire castle card"},
+    {"x": 0, "y": 0, "type": "Sword"},
+    {"x": 1, "y": 0, "type": "Staff"},
+    {"x": 2, "y": 0, "type": "Armour"},
+    {"x": 3, "y": 0, "type": "Shield"},
+    {"x": 0, "y": 1, "type": "Helmet"}
+  ],
+  "path": {
+    "type": "path_tile",
+    "x": 0, "y": 0,
+    "path": [
+      "RIGHT", "RIGHT", "DOWN", "RIGHT", "RIGHT", "UP", "RIGHT", "RIGHT", "RIGHT",
+      "DOWN", "DOWN", "DOWN", "DOWN", "DOWN", "DOWN", "DOWN", "DOWN", "DOWN",
+      "LEFT", "LEFT", "LEFT", "UP", "UP", "RIGHT",
+      "UP", "UP", "UP", "UP", "LEFT", "LEFT", "LEFT",
+      "DOWN", "DOWN", "DOWN", "DOWN", "DOWN", "DOWN", "DOWN", "DOWN",
+      "RIGHT", "RIGHT", "RIGHT", "RIGHT", "RIGHT", "DOWN", "DOWN",
+      "LEFT", "LEFT", "LEFT", "LEFT", "LEFT", "LEFT", "LEFT",
+      "UP", "UP", "UP", "UP", "UP", "UP", "UP", "UP", "UP", "UP", "UP", "UP", "UP"
+    ]
+  }
+}

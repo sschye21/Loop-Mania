@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="256.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shop">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="54.0" fitWidth="54.0" layoutX="38.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/basic_sword.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="54.0" layoutX="132.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/stake.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="54.0" layoutX="273.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/staff.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="54.0" layoutX="405.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/armour.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="54.0" layoutX="500.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/shield.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="54.0" layoutX="38.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/helmet.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="54.0" layoutX="499.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/brilliant_blue_new.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="exitShop" layoutX="260.0" layoutY="327.0" mnemonicParsing="false" onAction="#exitShopHandler" text="Exit Shop" />
+
+      <Button fx:id="buySword" layoutX="21.0" layoutY="129.0" mnemonicParsing="false" onAction="#swordBuyHandler" text="Buy Sword" />
+      <Button fx:id="sellSword" layoutX="21.0" layoutY="160.0" mnemonicParsing="false" onAction="#swordSellHandler" text="Sell Sword" />
+
+      <Button fx:id="buyStake" layoutX="126.0" layoutY="129.0" mnemonicParsing="false" onAction="#stakeBuyHandler" text="Buy Stake" />
+      <Button fx:id="sellStake" layoutX="126.0" layoutY="160.0" mnemonicParsing="false" onAction="#stakeSellHandler" text="Sell Stake" />
+
+
+      <Button fx:id="buyStaff" layoutX="260.0" layoutY="129.0" mnemonicParsing="false" onAction="#staffBuyHandler" prefHeight="26.0" prefWidth="67.0" text="Buy Staff" />
+      <Button fx:id="sellStaff" layoutX="260.0" layoutY="160.0" mnemonicParsing="false" onAction="#staffSellHandler" text="Sell Staff" />
+
+
+      <Button fx:id="buyArmour" layoutX="384.0" layoutY="129.0" mnemonicParsing="false" onAction="#armourBuyHandler" text="Buy Armour" />
+      <Button fx:id="sellArmour" layoutX="384.0" layoutY="160.0" mnemonicParsing="false" onAction="#armourSellHandler" text="Sell Armour" />
+
+
+      <Button fx:id="buyShield" layoutX="513.0" layoutY="129.0" mnemonicParsing="false" onAction="#shieldBuyHandler" text="Buy Shield" />
+      <Button fx:id="sellShield" layoutX="513.0" layoutY="160.0" mnemonicParsing="false" onAction="#shieldSellHandler" text="Sell Shield" />
+
+      <Button fx:id="buyHelmet" layoutX="18.0" layoutY="254.0" mnemonicParsing="false" onAction="#helmetBuyHandler" text="Buy Helmet" />
+      <Button fx:id="sellHelmet" layoutX="18.0" layoutY="285.0" mnemonicParsing="false" onAction="#helmetSellHandler" text="Sell Helmet" />
+
+      <Button fx:id="buyHealthPotion" layoutX="459.0" layoutY="254.0" mnemonicParsing="false" onAction="#healthPotionBuyHandler" text="Buy Health Potion" />
+
+   </children>
+</Pane>

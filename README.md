@@ -10,5 +10,3 @@ Aims:
 - Learn practical aspects of graphical user interface development
 - Appreciate issues in design and development
 - Design reusable software solutions
-
-[**Link to specification**](https://gitlab.cse.unsw.edu.au/COMP2511/21T2/project-specification)
